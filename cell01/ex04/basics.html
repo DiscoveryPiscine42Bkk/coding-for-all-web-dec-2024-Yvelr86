@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Basics</title>
+    <style>
+      body {
+        background-color: pink; /* สีพื้นหลังชมพู */
+        margin: 0; /* ลบ margin ด้านนอกสุด */
+        text-align: center; /* จัดเนื้อหาให้อยู่ตรงกลาง */
+        font-family: Arial, sans-serif; /* ฟอนต์มาตรฐาน */
+      }
+      h1 {
+        color: white; /* สีตัวอักษรขาว */
+        font-size: 50px; /* ขนาดตัวอักษรใหญ่ */
+        font-weight: bold; /* ตัวหนา */
+        margin: 20px 0; /* เพิ่มช่องว่างด้านบนและล่าง */
+      }
+      .images {
+        display: flex; /* จัดรูปภาพให้อยู่ข้างกัน */
+        justify-content: center; /* จัดให้อยู่ตรงกลาง */
+        gap: 20px; /* ช่องว่างระหว่างรูป */
+      }
+      .images img {
+        width: 200px; /* กำหนดความกว้างของรูป */
+        height: auto; /* รักษาอัตราส่วน */
+        border: 2px solid black; /* ใส่กรอบสีดำ */
+      }
+      hr {
+        margin: 30px auto; /* จัดเส้นแบ่งให้กึ่งกลาง */
+        border: none; /* เอาขอบเริ่มต้นออก */
+        height: 2px; /* ความหนาเส้น */
+        background-color: black; /* สีเส้นเป็นดำ */
+      }
+      footer {
+        text-align: right; /* ชิดขวา */
+        font-style: italic; /* ตัวเอียง */
+        font-family: "Courier New", monospace; /* ฟอนต์ monospace */
+        margin: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- ชื่อหัวข้อหลัก -->
+    <h1>Basics</h1>
+
+    <!-- รูปภาพและลิงก์ -->
+    <div class="images">
+      <div>
+        <a href="https://www.amazon.com" target="_blank">
+          <img src="https://www.popticles.com/wp-content/uploads/2024/04/Amazon_The_Most_Valuable_Brands_2023.jpg" alt="Amazon">
+        </a>
+        <p><a href="https://www.amazon.com" target="_blank">Go to Amazon</a></p>
+      </div>
+      <div>
+        <a href="https://www.ebay.com" target="_blank">
+          <img src="https://static.wixstatic.com/media/868f94_2f5588725fee45559920e92e675c0f25~mv2.jpg" alt="eBay">
+        </a>
+        <p><a href="https://www.ebay.com" target="_blank">Go to eBay</a></p>
+      </div>
+    </div>
+
+    <!-- เส้นแบ่ง -->
+    <hr>
+
+    <!-- Footer ลิขสิทธิ์ -->
+    <footer>
+      &copy; praksasu 2021
+    </footer>
+  </body>
+</html>
