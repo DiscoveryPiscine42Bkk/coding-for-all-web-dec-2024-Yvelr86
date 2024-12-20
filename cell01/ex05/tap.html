@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Two Boxes Table with Middle Line</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            border: 1px solid #999; /* ขอบนอกของตาราง */
+        }
+        td {
+            height: 100px;
+            text-align: left;
+            font-family: Arial, sans-serif;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .first-cell {
+            background-color: #0b03ff; /* สีน้ำเงิน */
+            color: #333;
+            border-right: 2px solid #999; /* เส้นตัดตรงกลาง */
+            width: 50%;
+        }
+        .second-cell {
+            background-color: #fd0808; /* สีเเดง */
+            color: #333;
+            width: 50%;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td class="first-cell">First cell</td>
+            <td class="second-cell">Second cell</td>
+        </tr>
+    </table>
+</body>
+</html>
